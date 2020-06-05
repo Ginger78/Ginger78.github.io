@@ -20,11 +20,17 @@ body {
 
 .column {
   float: left;
-  width: 24%;
+  width: 25%;
   padding: 0 10px;
 }
 
 .row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .shadowbox1 {
   background-color: aqua;
