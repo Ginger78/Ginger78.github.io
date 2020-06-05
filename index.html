@@ -2,8 +2,6 @@
 <html>
 <head>
 <style>
-h1 {text-align: center;}
-
 body {
   font-family: "Comic Sans MS", cursive, sans-serif;
   background-color: teal;
@@ -17,19 +15,32 @@ body {
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
   padding: 8px 12px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .shadowbox1 {
   background-color: aqua;
   margin: auto;
   margin-top: 50px;
-  width: 800px;
   border-radius: 25px;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
   padding: 8px 12px;
 }
-
 </style>    
 </head>    
 <body>
@@ -38,9 +49,30 @@ body {
   <h1 style="font-size:40px;"> Hi my name is Benny Vasquez and welcome to my website!</h1>
 </div> 
 
-<div class = "shadowbox1">
-  <p>Benny was here!!!! &#128516;</p>
+<div class="column">
+  <div class="card">
+
+  </div>
 </div>
+
+<div class="column">
+  <div class="card">
+
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+
+  </div>
+</div>
+
 
 </body>
 </html>
